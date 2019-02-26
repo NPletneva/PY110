@@ -34,10 +34,10 @@ print('\n===============\n')
 # Task 3
 print('TASK 3\n')
 
-# elements = {-1, -10, -5, -1000, -2000}
+elements = [-1, -10, -5, -1000, -2000, 10]
 
-print('elements: ', -1, -10, -5, -1000, -2000, 0, 20)
-print('max element: ', maxNumber(-1, -10, -5, -1000, -2000, 0, 20))
+print('elements: ', elements)
+print('max element: ', maxNumber(*elements))
 
 print('\n===============\n')
 # end task 3
